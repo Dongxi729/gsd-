@@ -1,0 +1,14 @@
+{
+Key = ID;
+Value =         {
+Content = 268;
+Type = Text;
+};
+},
+{
+Key = ContractTemplateId;
+Value =         {
+Content = 65;
+Type = Text;
+};
+},

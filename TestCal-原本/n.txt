@@ -1,0 +1,55 @@
+
+{
+"results" : [
+{
+"address_components" : [
+{
+"long_name" : "南京市",
+"short_name" : "南京市",
+"types" : [ "locality", "political" ]
+},
+{
+"long_name" : "江苏省",
+"short_name" : "江苏省",
+"types" : [ "administrative_area_level_1", "political" ]
+},
+{
+"long_name" : "中国",
+"short_name" : "CN",
+"types" : [ "country", "political" ]
+}
+],
+"formatted_address" : "中国江苏省南京市",
+"geometry" : {
+"bounds" : {
+"northeast" : {
+"lat" : 32.6143633,
+"lng" : 119.2360223
+},
+"southwest" : {
+"lat" : 31.2280977,
+"lng" : 118.3633731
+}
+},
+"location" : {
+"lat" : 32.060255,
+"lng" : 118.796877
+},
+"location_type" : "APPROXIMATE",
+"viewport" : {
+"northeast" : {
+"lat" : 32.3940135,
+"lng" : 119.050169
+},
+"southwest" : {
+"lat" : 31.8045247,
+"lng" : 118.4253323
+}
+}
+},
+"place_id" : "ChIJg82NZpuMtTURBhvfeQu2-48",
+"types" : [ "locality", "political" ]
+}
+],
+"status" : "OK"
+}

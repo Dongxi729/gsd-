@@ -1,0 +1,11 @@
+
+{
+    "msg":"OK",
+    "success": true,
+    "data":
+    {
+        "key":"bs",
+        "type": 2,
+        "version":21
+    }
+}

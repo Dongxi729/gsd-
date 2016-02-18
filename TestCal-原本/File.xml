@@ -1,0 +1,14 @@
+
+
+{
+items : {
+seqId : 1001,    				//滑动页面第几个
+name : '王师傅',
+detail : '地址：福建省福州市晋安区世欧王庄二区3栋301',
+pic : 'http://192.168.6.124/zxtxs/data/img/head_1.jpg',
+icons : ['http://192.168.6.124/zxtxs/img/zhao_icon/zhao_icon4.png', 'http://192.168.6.124/zxtxs/img/zhao_icon/zhao_icon4.png'],
+tool1Pic: 'http://192.168.6.124/zxtxs/img/convenience/marker.png',
+tool1Name: '到这去',
+tool2Pic: 'http://192.168.6.124/zxtxs/img/convenience/marker.png',
+tool2Name: '打电话'
+}}

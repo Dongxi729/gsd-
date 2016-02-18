@@ -1,0 +1,12 @@
+[
+    {
+        "key": "/test2",
+        "files":
+        [
+            "/test_111.apk",
+            "/test_112.apk"
+        ],
+        "headurl": "http://192.168.6.111/zxtxs"
+    }
+]
+

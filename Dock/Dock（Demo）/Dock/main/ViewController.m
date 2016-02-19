@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "Dock.h"
-//#import <iOS/iOS.h>
-
+//#import "Dock.h"
+#import "PrefixHeader.pch"
+#import <tarbar/tarbar.h>
 
 //---------
 
@@ -39,7 +39,6 @@
     //1.添加dock
     Dock* dock = [[Dock alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - KDOckHeight, self.view.frame.size.width, KDOckHeight)];
     
-    dock.kcount = 3;
      //2.添加到主界面
     [self.view addSubview:dock];
     
@@ -49,13 +48,14 @@
     [dock addDockItemWithIcon:@"custom" title:@"账户" textColor:@"dockTitlecolor"];
     //3.监听Dock内部item点击
     dock.itemClickBlock = ^(int index) {
-//        QLOG(@"选中啦第%d个item",index);
+        QLOG(@"选中啦第%d个item",index);
     };
     _dock = dock;
     
     self.view.backgroundColor = [UIColor grayColor];
 }
 
+//代码单击视图切换到tag对应的图标
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     _dock.selectedIndex = 0;
 }

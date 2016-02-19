@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2665280F1C770A7500761D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665280E1C770A7500761D10 /* main.m */; };
+		266528121C770A7500761D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 266528111C770A7500761D10 /* AppDelegate.m */; };
+		266528181C770A7500761D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266528161C770A7500761D10 /* Main.storyboard */; };
+		2665281A1C770A7500761D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266528191C770A7500761D10 /* Assets.xcassets */; };
+		2665281D1C770A7500761D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2665281B1C770A7500761D10 /* LaunchScreen.storyboard */; };
+		266528281C770A7500761D10 /* DockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 266528271C770A7500761D10 /* DockUITests.m */; };
+		266528371C770A9C00761D10 /* Dock.m in Sources */ = {isa = PBXBuildFile; fileRef = 266528341C770A9C00761D10 /* Dock.m */; };
+		266528381C770A9C00761D10 /* DockBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 266528361C770A9C00761D10 /* DockBtn.m */; };
+		266528461C770ADF00761D10 /* creater.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283A1C770ADF00761D10 /* creater.png */; };
+		266528471C770ADF00761D10 /* creater_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283B1C770ADF00761D10 /* creater_selected.png */; };
+		266528481C770ADF00761D10 /* custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283C1C770ADF00761D10 /* custom.png */; };
+		266528491C770ADF00761D10 /* custom_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283D1C770ADF00761D10 /* custom_selected.png */; };
+		2665284A1C770ADF00761D10 /* dockTitlecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283E1C770ADF00761D10 /* dockTitlecolor.png */; };
+		2665284B1C770ADF00761D10 /* dockTitlecolor_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2665283F1C770ADF00761D10 /* dockTitlecolor_selected.png */; };
+		2665284C1C770ADF00761D10 /* main_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528401C770ADF00761D10 /* main_page.png */; };
+		2665284D1C770ADF00761D10 /* main_page_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528411C770ADF00761D10 /* main_page_selected.png */; };
+		2665284E1C770ADF00761D10 /* smartHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528421C770ADF00761D10 /* smartHome.png */; };
+		2665284F1C770ADF00761D10 /* smartHome_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528431C770ADF00761D10 /* smartHome_selected.png */; };
+		266528501C770ADF00761D10 /* tarbarbgcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528441C770ADF00761D10 /* tarbarbgcolor.png */; };
+		266528511C770ADF00761D10 /* 底部栏效果图.png in Resources */ = {isa = PBXBuildFile; fileRef = 266528451C770ADF00761D10 /* 底部栏效果图.png */; };
+		266528551C770B1100761D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 266528531C770B1100761D10 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266528241C770A7500761D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266528021C770A7500761D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266528091C770A7500761D10;
+			remoteInfo = Dock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2665280A1C770A7500761D10 /* Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2665280E1C770A7500761D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		266528101C770A7500761D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		266528111C770A7500761D10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		266528171C770A7500761D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266528191C770A7500761D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2665281C1C770A7500761D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2665281E1C770A7500761D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266528231C770A7500761D10 /* DockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		266528271C770A7500761D10 /* DockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DockUITests.m; sourceTree = "<group>"; };
+		266528291C770A7500761D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266528331C770A9C00761D10 /* Dock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dock.h; sourceTree = "<group>"; };
+		266528341C770A9C00761D10 /* Dock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dock.m; sourceTree = "<group>"; };
+		266528351C770A9C00761D10 /* DockBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockBtn.h; sourceTree = "<group>"; };
+		266528361C770A9C00761D10 /* DockBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockBtn.m; sourceTree = "<group>"; };
+		2665283A1C770ADF00761D10 /* creater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creater.png; sourceTree = "<group>"; };
+		2665283B1C770ADF00761D10 /* creater_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creater_selected.png; sourceTree = "<group>"; };
+		2665283C1C770ADF00761D10 /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
+		2665283D1C770ADF00761D10 /* custom_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_selected.png; sourceTree = "<group>"; };
+		2665283E1C770ADF00761D10 /* dockTitlecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dockTitlecolor.png; sourceTree = "<group>"; };
+		2665283F1C770ADF00761D10 /* dockTitlecolor_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dockTitlecolor_selected.png; sourceTree = "<group>"; };
+		266528401C770ADF00761D10 /* main_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_page.png; sourceTree = "<group>"; };
+		266528411C770ADF00761D10 /* main_page_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_page_selected.png; sourceTree = "<group>"; };
+		266528421C770ADF00761D10 /* smartHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartHome.png; sourceTree = "<group>"; };
+		266528431C770ADF00761D10 /* smartHome_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smartHome_selected.png; sourceTree = "<group>"; };
+		266528441C770ADF00761D10 /* tarbarbgcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarbarbgcolor.png; sourceTree = "<group>"; };
+		266528451C770ADF00761D10 /* 底部栏效果图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部栏效果图.png"; sourceTree = "<group>"; };
+		266528531C770B1100761D10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		266528541C770B1100761D10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266528071C770A7500761D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266528201C770A7500761D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266528011C770A7500761D10 = {
+			isa = PBXGroup;
+			children = (
+				266528521C770B0C00761D10 /* main */,
+				266528391C770ADF00761D10 /* image */,
+				2665280C1C770A7500761D10 /* Dock */,
+				266528261C770A7500761D10 /* DockUITests */,
+				2665280B1C770A7500761D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2665280B1C770A7500761D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2665280A1C770A7500761D10 /* Dock.app */,
+				266528231C770A7500761D10 /* DockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2665280C1C770A7500761D10 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				266528321C770A8C00761D10 /* class */,
+				266528101C770A7500761D10 /* AppDelegate.h */,
+				266528111C770A7500761D10 /* AppDelegate.m */,
+				266528161C770A7500761D10 /* Main.storyboard */,
+				266528191C770A7500761D10 /* Assets.xcassets */,
+				2665281B1C770A7500761D10 /* LaunchScreen.storyboard */,
+				2665281E1C770A7500761D10 /* Info.plist */,
+				2665280D1C770A7500761D10 /* Supporting Files */,
+			);
+			path = Dock;
+			sourceTree = "<group>";
+		};
+		2665280D1C770A7500761D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2665280E1C770A7500761D10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		266528261C770A7500761D10 /* DockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				266528271C770A7500761D10 /* DockUITests.m */,
+				266528291C770A7500761D10 /* Info.plist */,
+			);
+			path = DockUITests;
+			sourceTree = "<group>";
+		};
+		266528321C770A8C00761D10 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				266528331C770A9C00761D10 /* Dock.h */,
+				266528341C770A9C00761D10 /* Dock.m */,
+				266528351C770A9C00761D10 /* DockBtn.h */,
+				266528361C770A9C00761D10 /* DockBtn.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		266528391C770ADF00761D10 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2665283A1C770ADF00761D10 /* creater.png */,
+				2665283B1C770ADF00761D10 /* creater_selected.png */,
+				2665283C1C770ADF00761D10 /* custom.png */,
+				2665283D1C770ADF00761D10 /* custom_selected.png */,
+				2665283E1C770ADF00761D10 /* dockTitlecolor.png */,
+				2665283F1C770ADF00761D10 /* dockTitlecolor_selected.png */,
+				266528401C770ADF00761D10 /* main_page.png */,
+				266528411C770ADF00761D10 /* main_page_selected.png */,
+				266528421C770ADF00761D10 /* smartHome.png */,
+				266528431C770ADF00761D10 /* smartHome_selected.png */,
+				266528441C770ADF00761D10 /* tarbarbgcolor.png */,
+				266528451C770ADF00761D10 /* 底部栏效果图.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		266528521C770B0C00761D10 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				266528531C770B1100761D10 /* ViewController.m */,
+				266528541C770B1100761D10 /* ViewController.h */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266528091C770A7500761D10 /* Dock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2665282C1C770A7500761D10 /* Build configuration list for PBXNativeTarget "Dock" */;
+			buildPhases = (
+				266528061C770A7500761D10 /* Sources */,
+				266528071C770A7500761D10 /* Frameworks */,
+				266528081C770A7500761D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dock;
+			productName = Dock;
+			productReference = 2665280A1C770A7500761D10 /* Dock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		266528221C770A7500761D10 /* DockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2665282F1C770A7500761D10 /* Build configuration list for PBXNativeTarget "DockUITests" */;
+			buildPhases = (
+				2665281F1C770A7500761D10 /* Sources */,
+				266528201C770A7500761D10 /* Frameworks */,
+				266528211C770A7500761D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266528251C770A7500761D10 /* PBXTargetDependency */,
+			);
+			name = DockUITests;
+			productName = DockUITests;
+			productReference = 266528231C770A7500761D10 /* DockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266528021C770A7500761D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "郑东喜";
+				TargetAttributes = {
+					266528091C770A7500761D10 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					266528221C770A7500761D10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 266528091C770A7500761D10;
+					};
+				};
+			};
+			buildConfigurationList = 266528051C770A7500761D10 /* Build configuration list for PBXProject "Dock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266528011C770A7500761D10;
+			productRefGroup = 2665280B1C770A7500761D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266528091C770A7500761D10 /* Dock */,
+				266528221C770A7500761D10 /* DockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266528081C770A7500761D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266528481C770ADF00761D10 /* custom.png in Resources */,
+				266528461C770ADF00761D10 /* creater.png in Resources */,
+				266528501C770ADF00761D10 /* tarbarbgcolor.png in Resources */,
+				2665284F1C770ADF00761D10 /* smartHome_selected.png in Resources */,
+				2665284B1C770ADF00761D10 /* dockTitlecolor_selected.png in Resources */,
+				2665284C1C770ADF00761D10 /* main_page.png in Resources */,
+				2665284E1C770ADF00761D10 /* smartHome.png in Resources */,
+				2665284D1C770ADF00761D10 /* main_page_selected.png in Resources */,
+				266528471C770ADF00761D10 /* creater_selected.png in Resources */,
+				266528491C770ADF00761D10 /* custom_selected.png in Resources */,
+				2665281D1C770A7500761D10 /* LaunchScreen.storyboard in Resources */,
+				2665281A1C770A7500761D10 /* Assets.xcassets in Resources */,
+				266528181C770A7500761D10 /* Main.storyboard in Resources */,
+				2665284A1C770ADF00761D10 /* dockTitlecolor.png in Resources */,
+				266528511C770ADF00761D10 /* 底部栏效果图.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266528211C770A7500761D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266528061C770A7500761D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266528121C770A7500761D10 /* AppDelegate.m in Sources */,
+				266528381C770A9C00761D10 /* DockBtn.m in Sources */,
+				266528371C770A9C00761D10 /* Dock.m in Sources */,
+				2665280F1C770A7500761D10 /* main.m in Sources */,
+				266528551C770B1100761D10 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2665281F1C770A7500761D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266528281C770A7500761D10 /* DockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266528251C770A7500761D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266528091C770A7500761D10 /* Dock */;
+			targetProxy = 266528241C770A7500761D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		266528161C770A7500761D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266528171C770A7500761D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2665281B1C770A7500761D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2665281C1C770A7500761D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2665282A1C770A7500761D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2665282B1C770A7500761D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2665282D1C770A7500761D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Dock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2665282E1C770A7500761D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Dock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		266528301C770A7500761D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dock;
+			};
+			name = Debug;
+		};
+		266528311C770A7500761D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266528051C770A7500761D10 /* Build configuration list for PBXProject "Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2665282A1C770A7500761D10 /* Debug */,
+				2665282B1C770A7500761D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2665282C1C770A7500761D10 /* Build configuration list for PBXNativeTarget "Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2665282D1C770A7500761D10 /* Debug */,
+				2665282E1C770A7500761D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2665282F1C770A7500761D10 /* Build configuration list for PBXNativeTarget "DockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266528301C770A7500761D10 /* Debug */,
+				266528311C770A7500761D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266528021C770A7500761D10 /* Project object */;
+}

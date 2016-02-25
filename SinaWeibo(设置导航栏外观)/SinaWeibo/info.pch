@@ -1,0 +1,33 @@
+//
+//  info.pch
+//  SinaWeibo
+//
+//  Created by android_ls on 15/5/19.
+//  Copyright (c) 2015年 android_ls. All rights reserved.
+//
+
+#ifndef SinaWeibo_info_pch
+#define SinaWeibo_info_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#pragma mark 导入UIView的扩展类
+#import "UIView+Category.h"
+
+#endif
+
+// 获得RGB颜色
+#define kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+// 日志输出宏定义
+#ifdef DEBUG
+// 调试状态
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+// 发布状态
+#define MyLog(...)
+#endif
+
+#endif

@@ -1,0 +1,6 @@
+framework module NavigationBar {
+  umbrella header "NavigationBar.h"
+
+  export *
+  module * { export * }
+}
